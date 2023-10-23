@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <title>https://StackMaestro_Calculator_website.com</title>
+    <style>
+        .all{
+            max-width:500px;
+            margin-left: 450px;
+            
+        }
+        input{
+            width: 100%;
+        }
+        button{
+            width: 50%;
+            box-shadow: 1px 1px blue;
+            font-size: 5px;
+            
+
+        }
+        .real{
+            border-radius: 20px;
+            box-shadow: 10px 10px grey;
+            background-color: rgb(15, 14, 14);
+        }
+        .new{
+            margin-left: 4px;
+            
+        }
+        button:active{
+            border: 2px solid white;
+        }
+      
+        @media(max-width:1000px){
+            .all{
+               margin-left: 300px;
+            }
+        
+            
+        }
+        @media(max-width:800px){
+            .all{
+               margin-left: 200px;
+            }
+
+            
+        }
+        @media(max-width:715px){
+            .all{
+               margin-left: 50px;
+            }
+           
+            
+        }
+        @media(max-width:565px){
+            .all{
+               margin-left: 0px;
+               max-width: 450px;
+            }
+           
+           
+        }
+        @media(max-width:400px){
+            .all{
+               margin-left: 0px;
+               max-width: 600px;
+               text-align: start;
+            }
+            .new{
+                margin-left: 0px;
+                
+            }
+            button{
+                width: 100%;
+            }
+          
+          
+            
+        }
+        @media(max-width:380px){
+            .all{
+               margin-left: 0px;
+               max-width: 600px;
+            }
+            .new{
+                margin-left: 0px;
+                
+            }
+            button{
+                width: 100%;
+            }
+          
+            
+        }
+        @media(max-width:366px){
+            .all{
+                margin-left: 0px;
+                max-width: 600px;
+             }
+             .new{
+                margin-left: 0px;
+                
+            }
+           
+            button{
+                width: 100%;
+                padding:0rem 0.2rem;
+            }
+          
+            
+        }
+        @media(max-width:359px){
+           
+            button{
+                width: 100%;
+                padding:0rem 0.2rem;
+            }
+            
+          
+            
+        }
+        @media(max-width:342px){
+           
+            button{
+                width: 100%;
+                padding:0rem 0.2rem;
+               
+            }
+          
+            
+        }
+        @media(max-width:343px){
+           
+            button{
+                width: 100%;
+                padding:0rem 0.2rem;
+               
+            }
+          
+            
+        }
+    </style>
+</head>
+<body class="bg-light">
+  
+        <section class="all">
+            <div class="container">
+
+                <div class="row m-5 p-5 border real">
+
+                    <div class="col  ">
+                        <input type="text" id="output" placeholder="0">
+                    </div>
+                   
+                     <div class="row mt-4 gx-0 new">
+
+                        <div class="col-3 p-1">
+                        <button type="button" onclick="document.getElementById('output').value +='9'" class="btn btn-primary w-100 btn-sm text-center">9</button>
+                        </div>
+                        <div class="col-3 p-1">
+                        <button type="button" onclick="document.getElementById('output').value +='/'" class="btn btn-primary w-100 btn-sm text-center">/</button>
+                        </div>
+                        <div class="col-3 p-1">
+                        <button type="button" onclick="document.getElementById('output').value +='%'" class="btn btn-primary w-100 btn-sm text-center">%</button>
+                        </div>
+                        <div class="col-3 p-1">
+                            <button type="button" onclick="document.getElementById('output').value +='**'" class="btn btn-primary w-100 btn-sm text-center">**</button>
+                            </div>
+                        
+
+                    </div>
+                     <div class="row mt-4 gx-0 new">
+
+                        <div class="col-3 p-1">
+                        <button type="button" onclick="document.getElementById('output').value +='6'" class="btn btn-primary w-100 btn-sm text-center">6</button>
+                        </div>
+                        <div class="col-3 p-1">
+                        <button type="button" onclick="document.getElementById('output').value +='7'" class="btn btn-primary w-100 btn-sm text-center"> 7</button>
+                        </div>
+                        <div class="col-3 p-1">
+                        <button type="button" onclick="document.getElementById('output').value +='8'" class="btn btn-primary w-100 btn-sm text-center">8</button>
+                        </div>
+                        <div class="col-3 p-1">
+                            <button type="button" onclick="document.getElementById('output').value +='*'" class="btn btn-primary w-100 btn-sm text-center">*</button>
+                            </div>
+                        
+
+                    </div>
+                    <div class="row mt-4 gx-0 new">
+
+                        <div class="col-3 p-1">
+                        <button type="button" onclick="document.getElementById('output').value +='3'" class="btn btn-primary w-100 btn-sm text-center">3</button>
+                        </div>
+                        <div class="col-3 p-1">
+                        <button type="button" onclick="document.getElementById('output').value +='4'" class="btn btn-primary w-100 btn-sm text-center">4</button>
+                        </div>
+                        <div class="col-3 p-1">
+                        <button type="button" onclick="document.getElementById('output').value +='5'" class="btn btn-primary w-100 btn-sm text-center">5</button>
+                        </div>
+                        <div class="col-3 p-1">
+                            <button type="button" onclick="document.getElementById('output').value +='+'" class="btn btn-primary w-100 btn-sm text-center">+</button>
+                            </div>
+                        
+
+                    </div>
+                    <div class="row mt-4 gx-0 new">
+
+                        <div class="col-3 p-1">
+                        <button type="button" onclick="document.getElementById('output').value +='0'" class="btn btn-primary w-100 btn-sm text-center">0</button>
+                        </div>
+                        <div class="col-3 p-1">
+                        <button type="button" onclick="document.getElementById('output').value +='1'" class="btn btn-primary w-100 btn-sm text-center">1</button>
+                        </div>
+                        <div class="col-3 p-1">
+                        <button type="button" onclick="document.getElementById('output').value +='2'" class="btn btn-primary w-100 btn-sm text-center">2</button>
+                        </div>
+                        <div class="col-3 p-1">
+                            <button type="button"  onclick="document.getElementById('output').value= eval(document.getElementById('output').value)" class="btn btn-primary w-100 btn-sm">=</button>
+                            </div>
+                          
+                        
+
+                    </div>
+                    <div class="row mt-3 gx-0 new" >
+                        <div class="col-3 p-1" >
+                            <button type="button" onclick="deleteCal()" class="btn btn-danger  w-100 btn-sm bs-btn-padding-x: 0.2rem text-center" style="border-radius: 50%;">C</button>
+
+                        </div>
+                        <div class="col-3 p-1" >
+                            <button type="button" onclick="singledel()" class="btn btn-danger w-100 btn-sm text-center" style="border-radius: 50%;">dl</button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+        
+
+        <script>
+            
+            function deleteCal(){
+                document.getElementById('output').value ='';
+            }
+
+
+            function singledel(){
+                document.getElementById('output').value=document.getElementById('output').value.slice(0,-1)
+                
+               
+              
+            }
+        </script>
+
+
+
+
+    
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
